@@ -1,0 +1,93 @@
+2014/03/16 07:34:08 [error] [php] Undefined variable: model (C:\xampp\htdocs\proyectos\Yii\clase_01\protected\views\user\index.php:20)
+Stack trace:
+#0 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\proyectos\Yii\clase_01\protected\controllers\UserController.php(7): UserController->render()
+#3 C:\xampp\htdocs\proyectos\Yii\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\proyectos\Yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectos\Yii\clase_01\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectos/Yii/clase_01/index.php?r=user
+in C:\xampp\htdocs\proyectos\Yii\clase_01\protected\views\user\index.php (20)
+in C:\xampp\htdocs\proyectos\Yii\clase_01\protected\controllers\UserController.php (7)
+in C:\xampp\htdocs\proyectos\Yii\clase_01\index.php (13)
+2014/03/16 07:34:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index".' in C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index')
+#1 C:\xampp\htdocs\proyectos\Yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectos\Yii\clase_01\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectos/Yii/clase_01/index.php?r=index
+---
+2014/03/16 07:35:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "index.php".' in C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('index.php')
+#1 C:\xampp\htdocs\proyectos\Yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectos\Yii\clase_01\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectos/Yii/clase_01/index.php?r=index.php
+---
+2014/03/16 07:35:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "i".' in C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('i')
+#1 C:\xampp\htdocs\proyectos\Yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectos\Yii\clase_01\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectos/Yii/clase_01/index.php?r=i
+---
+2014/03/16 07:35:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "i".' in C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('i')
+#1 C:\xampp\htdocs\proyectos\Yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proyectos\Yii\clase_01\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proyectos/Yii/clase_01/index.php?r=i
+---
+2014/03/16 07:36:35 [error] [php] Undefined variable: model (C:\xampp\htdocs\proyectos\Yii\clase_01\protected\views\user\index.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\proyectos\Yii\clase_01\protected\controllers\UserController.php(7): UserController->render()
+#3 C:\xampp\htdocs\proyectos\Yii\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\proyectos\Yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectos\Yii\clase_01\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectos/Yii/clase_01/index.php?r=user
+in C:\xampp\htdocs\proyectos\Yii\clase_01\protected\views\user\index.php (14)
+in C:\xampp\htdocs\proyectos\Yii\clase_01\protected\controllers\UserController.php (7)
+in C:\xampp\htdocs\proyectos\Yii\clase_01\index.php (13)
+2014/03/16 07:36:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "_form".' in C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(270): CController->missingAction('_form')
+#1 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(282): CController->run('_form')
+#2 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/_form')
+#3 C:\xampp\htdocs\proyectos\Yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\proyectos\Yii\clase_01\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/proyectos/Yii/clase_01/index.php?r=user/_form
+---
+2014/03/16 07:37:07 [error] [php] Undefined variable: model (C:\xampp\htdocs\proyectos\Yii\clase_01\protected\views\user\index.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(869): UserController->renderFile()
+#1 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(782): UserController->renderPartial()
+#2 C:\xampp\htdocs\proyectos\Yii\clase_01\protected\controllers\UserController.php(7): UserController->render()
+#3 C:\xampp\htdocs\proyectos\Yii\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(286): UserController->runAction()
+#6 C:\xampp\htdocs\proyectos\Yii\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(282): UserController->run()
+#8 C:\xampp\htdocs\proyectos\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\proyectos\Yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proyectos\Yii\clase_01\index.php(13): CWebApplication->run()
+REQUEST_URI=/proyectos/Yii/clase_01/index.php?r=user
+in C:\xampp\htdocs\proyectos\Yii\clase_01\protected\views\user\index.php (14)
+in C:\xampp\htdocs\proyectos\Yii\clase_01\protected\controllers\UserController.php (7)
+in C:\xampp\htdocs\proyectos\Yii\clase_01\index.php (13)
